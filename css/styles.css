@@ -66,6 +66,7 @@ letter-spacing: 0.02em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:var(--main-text-cl);
+  cursor: pointer;
   
 }
 .btn:hover,
