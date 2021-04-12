@@ -22,6 +22,30 @@ body {
   color: var(--main-text-cl);
   background: var(--main-bg);
 }
+.list {
+  list-style: none;
+}
+
+/*logo*/
+a span{
+  color: var(--accent-cl);  
+  }
+  .logo {
+    font-family: var(--title-font);
+    font-size: 26px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color:var(--main-text-cl);
+
+  }
+  .menu{
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+  }
+  .contacts li {
+   color:var(--text-cl) 
+  }
 
 .link {
   color: inherit;
@@ -32,22 +56,17 @@ body {
 .link:focus {
   color: var(--accent-cl);
 }
-/*logo*/
-a span{
-color: var(--accent-cl);  
+
+.current:active 
 }
-.link-current:active { var(--accent-cl)
-}
-.list {
-  list-style: none;
-}
+
 
 .btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color:var(main-text-cl);
+  color:var(--main-text-cl);
   background-color: #F5F4FA;
 }
 .btn:hover,
@@ -55,16 +74,7 @@ color: var(--accent-cl);
   color: var(--alt-title-cl);
   background-color: var(--accent-cl);
 }
-/*logo*/
-.title-font {
-  font-family: var(--title-font);
-  font-style: normal;
-  font-size: 26px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color:var(--main-text-cl);
 
-}
 /* h1*/
 .page-title{
 font-family: var(--main-font);
@@ -135,7 +145,7 @@ letter-spacing: 0.03em;
 color:var(--text-cl) 
 }
 footer {
-  color:var(--alt-text-cl)
+color:var(--alt-text-cl)
 background-color:var(--dark-bg);
 }
 .address{
